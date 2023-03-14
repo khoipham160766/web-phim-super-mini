@@ -44,7 +44,7 @@ const Navbar = () => {
                 </div>
                 <div className="web-logo col-6 col-lg-3 col-xl-2">
                     <Link to="home">
-                        <img src="../../images/background-black-logo.png" alt="logo"/>
+                        <img src="https://res.cloudinary.com/dsmxbt954/image/upload/v1678768653/logo-x-snail/background-black-logo_exrqrv.png" alt="logo"/>
                     </Link>
                 </div>
                 <div className="nav-menu-nor col-lg-8 col-xl-7">

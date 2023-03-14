@@ -60,7 +60,7 @@ const DetailFilm = ({type}) => {
                         </div>
                         <div className="content-sorry">
                             <span>MÌNH RẤT TIẾC VÌ CHỈ XEM ĐƯỢC TRAILER THÔI Ạ</span>
-                            <img src="../../images/sorry.png" alt=""/>
+                            <img src="https://res.cloudinary.com/dsmxbt954/image/upload/v1678768728/logo-x-snail/sorry_wulvyn.png" alt=""/>
                         </div>
                     </div>
                     :null

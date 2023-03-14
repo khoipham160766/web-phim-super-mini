@@ -11,7 +11,7 @@ const Footer = () =>{
             <div className="footer-cpn">
                 <div className="footer-content row">
                     <div className="div-1 col-xl-5 col-sm-6 col-12">
-                        <img src="../../images/background-black-logo.png" alt="logo"/>
+                        <img src="https://res.cloudinary.com/dsmxbt954/image/upload/v1678768653/logo-x-snail/background-black-logo_exrqrv.png" alt=""/>
                         <p>X-Snail là web xem phim mới luôn được cập nhật các bộ phim hay,
                            mang đến những trải nghiệm tuyệt vời cho người xem. Có đầy đủ các 
                            thể loại phim đến từ đa quốc gia (phim vietsub, thuyết minh, lồng tiếng).
