@@ -43,7 +43,7 @@ const Navbar = () => {
                     }
                 </div>
                 <div className="web-logo col-6 col-lg-3 col-xl-2">
-                    <Link to="/home">
+                    <Link to="home">
                         <img src="../../images/background-black-logo.png" alt="logo"/>
                     </Link>
                 </div>
