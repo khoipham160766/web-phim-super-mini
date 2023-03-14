@@ -1,0 +1,40 @@
+/* list actor */
+.list-actor-cpn .title-list-actor{
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 19px;
+}
+/* card actor */
+.actor-card-cpn{
+    background-color: white;
+    height: 270px;
+    width: 175px;
+}
+.actor-card-cpn .image-actor{
+    background-color: black;
+    width: 100%;
+    height: 190px;
+}
+.actor-card-cpn .image-actor img{
+    width: 100%;
+    height: 190px;
+}
+.actor-card-cpn .name-actor{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+}
+.actor-card-cpn .name-actor .name{
+    color: white !important;
+    width: 100%;
+    font-weight: bold;
+    padding: 0 !important;
+    margin: 0 !important;
+    padding: 5px !important;
+}
+.actor-card-cpn .name-actor .character{
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+    padding-left: 5px !important;
+}

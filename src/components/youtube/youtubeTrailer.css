@@ -1,0 +1,19 @@
+.iframe-youtube iframe{
+    width: 100% !important;
+}
+.not-found-trailer {
+    color: white;
+    display: block;
+}
+@media only screen and (min-width: 1200px){
+    .iframe-youtube iframe{
+        width: 100% !important;
+        height: 600px;
+    }
+}
+@media only screen and (min-width: 992px){
+    .iframe-youtube iframe{
+        width: 70% !important;
+        height: 450px;
+    }
+}

@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+.body{
+    width: 100%;
+    float: left;
+    height: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* mobile */
+@media only screen and (min-width:768px) and (max-width: 1200px){
+    .title-nominated,
+    .title-upcoming,
+    .title-updated{
+        font-size: 20px !important;
+    }
+    .more-film span{
+        font-size: 13px !important;
+    }
+    .first-film-updated .slider-film,
+    .first-film-upcoming .slider-film{
+        height: 250px !important;
+    }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media only screen and (max-width:767px ) {
+    .title-nominated,
+    .title-upcoming,
+    .title-updated{
+        font-size: 17px !important;
+    }
+    .more-film span{
+        font-size: 12px !important;
+    }
+    .more-film span svg{
+        font-size: 15px !important;
+    }
+    .first-film-updated .slider-film,
+    .first-film-upcoming .slider-film{
+        height: 250px !important;
+    }
 }

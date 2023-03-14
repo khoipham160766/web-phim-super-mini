@@ -1,0 +1,97 @@
+.footer-cpn{
+    width: 100%;
+    background-color: #000000;
+    /* position: relative;
+    bottom: 0; */
+}
+.footer-cpn .footer-content{
+    width: 84%;
+    margin: 0 auto;
+    padding: 0 !important;
+    padding-bottom: 15px !important;
+}
+.footer-content .div-1,
+.footer-content .div-2,
+.footer-content .div-3,
+.footer-content .div-4{
+    padding: 0;
+    padding: 15px 15px;
+}
+.footer-content .footer-title{
+    color: #FFCC00;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 17px 0;
+}
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-content ul li{
+    color: #BBBBBB;
+    font-size: 14px;
+    margin: 7px 0;
+    cursor: pointer;
+}
+.footer-content ul li:hover{
+    color: #ff6600;
+}
+/* div-1 */
+.footer-content .div-1 {
+    color: #BBBBBB;
+    font-size: 14px;
+    text-align: justify;
+}
+.footer-content .div-1 img{
+    height: 60px;
+    margin: 10px auto;
+}
+/* div-4 */
+.footer-content .div-4 .mini-contact {
+    padding: 0;
+    margin: 5px 0;
+    font-size: 14px;
+    color: #bbbbbb;
+}
+.footer-content .div-4 .mini-contact svg{
+    font-size: 18px;
+    margin-right: 7px;
+    margin-top: 3px;
+}
+.footer-content .div-4 .icon-contact{
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.footer-content .div-4 .icon-contact svg {
+    font-size: 22px;
+    border: 1px solid #bbbbbb;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.footer-content .div-4 .icon-contact svg:hover{
+    border: 1px solid #ff6600;
+}
+.get-api{
+    color: #ff0000;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* mobile */
+@media only screen and (max-width: 576px ){
+    .footer-content .div-1{
+        text-align: center;
+    }
+    .footer-content .div-1 p{
+        text-align: justify;
+    }
+    .footer-content .div-1 img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-content .div-4{
+        text-align: center;
+    }
+}

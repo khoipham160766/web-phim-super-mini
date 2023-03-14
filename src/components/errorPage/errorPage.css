@@ -1,0 +1,27 @@
+.page-error-cpn{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    color: #ffffff;
+}
+.page-error-cpn h1{
+    font-size: 140px;
+    font-weight: bold;
+}
+.page-error-cpn h3{
+padding-bottom: 35px;
+}
+.page-error-cpn a{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 15px;
+}
+.page-error-cpn svg{
+    margin-left: 10px;
+}
+.page-error-cpn a:hover{
+    background-color: #0000EE;
+    color: white !important;
+}

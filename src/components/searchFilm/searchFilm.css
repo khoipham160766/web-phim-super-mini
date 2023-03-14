@@ -1,0 +1,40 @@
+.sort-film-cpn{
+    width: 100%;
+    margin-top: 25px;
+}
+.sort-film-cpn select{
+    margin: 10px 15px;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 140px;
+}
+.sort-film-cpn select option{
+    font-size: 14px;
+}
+.sort-film-cpn .btn-confirm-search-detail button{
+    background-color: #ff6600 ;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 15px;
+    color: #ffffff;
+    width: 120px;
+    text-align: center;
+    margin: 8px 15px;
+    border: 1px solid #999999 ;
+}
+.sort-film-cpn .btn-confirm-search-detail button:hover{
+    background-color: #000000 ;
+
+}
+@media only screen and (min-width: 992px){
+    .sort-film-cpn select{
+    font-size: 14px;
+    }
+    .sort-film-cpn .btn-confirm-search-detail button{
+        font-size: 15px;
+    }
+}

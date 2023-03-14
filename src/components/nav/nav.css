@@ -1,0 +1,218 @@
+.cpn-navbar{
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+    margin: 0 !important;
+    border-bottom: 2px solid #5b5a5a;
+}
+.cpn-navbar .btn-menu,
+.cpn-navbar .web-logo,
+.cpn-navbar .btn-search {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+.cpn-navbar .btn-menu {
+    font-size: 27px;
+    padding-left: 22px;
+    cursor: pointer;
+}
+.cpn-navbar .web-logo a {
+    height: 41px;
+    margin: 0 auto;
+}
+.cpn-navbar .web-logo a img{
+    height: 41px;
+    margin: 0 auto;
+}
+.cpn-navbar .btn-search {
+    font-size: 22px;
+    justify-content: end;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.input-search {
+    width: 100%;
+    background-color: #000000;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.input-search input{
+    margin: 0 auto;
+    width: 85%;
+    font-size: 13px;
+    padding-left: 10px;
+    border-radius: 10px;
+    height: 32px;
+    background-color: #343434;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+.input-search ::placeholder{
+    color: #999999;
+}
+.search-nor{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.search-nor svg{
+    font-size: 22px;
+}
+.search-nor input{
+    margin: 0 auto;
+    width: 85%;
+    font-size: 14px;
+    padding-left: 10px;
+    border-radius: 10px;
+    height: 35px;
+    background-color: #343434;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+.search-nor ::placeholder{
+    color: #bbbbbb;
+}
+.nav-menu{
+    background-color: #111111;
+    transform: translateX(-100%);
+    visibility: hidden;
+    transition: 0.5s;
+    position: absolute;
+    width: 100%;
+}
+.on-nav-menu {
+    transform: none;
+    transition: 0.5s;
+    visibility: unset;
+}
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-menu ul li {
+    color: #ffffff;
+    padding: 22px 20px;
+    border-bottom: 1px solid #5b5a5a;
+}
+/* menu normal */
+.nav-menu-nor{
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+.nav-menu-nor ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-menu-nor ul li {
+    display: inline-block;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.nav-menu-nor ul li a{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+.nav-menu-nor ul li a:hover{
+    color: #FF6600;
+}
+.nav-menu-nor .sub-menu-nor{
+    visibility: hidden;
+    background-color: #000000;
+    position: absolute;
+    margin-top: 10px;
+    width: 350px;
+    text-transform: capitalize;
+    font-weight: 400;
+    border: 1px solid #333333;
+}
+.nav-menu-nor .sub-menu-nor ul li{
+    width: 50%;
+    font-size: 14px;
+    padding: 5px 18px;
+}
+.nav-menu-nor .sub-menu-nor ul li a{
+    font-size: 14px;
+    text-decoration: none;
+}
+.nav-menu-nor ul li:hover .sub-menu-nor{
+    visibility: unset;
+    color: #ffffff;
+    z-index: 10;
+}
+/* menu mobile */
+.nav-menu-mb{
+    z-index: 100;
+}
+.nav-menu-mb ul li a{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+.nav-menu-mb ul li:hover{
+    color: #ff6600;
+    cursor: pointer;
+}
+.nav-menu-mb ul li a:hover{
+    color: #ff6600;
+    cursor: pointer;
+}
+.nav-menu-mb svg{
+    float: right;
+    margin-top: 5px;
+}
+.nav-menu-mb .sub-menu-mb{
+    display: none;
+}
+.nav-menu-mb .sub-menu-mb ul li{
+    width: 50%;
+    display: inline-block;
+    border: none;
+    padding: 10px 20px;
+}
+.nav-menu-mb .on-sub-menu-mb{
+    display: block;
+}
+@media only screen and (min-width: 992px){
+    .nav-menu-mb{
+        visibility: hidden;
+    }
+    .btn-menu-mb{
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .nav-menu-nor{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .btn-search{
+        display: none !important;
+    }
+    .input-search{
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .search-nor{
+        display: none;
+    }
+}

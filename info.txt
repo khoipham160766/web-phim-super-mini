@@ -1,0 +1,10 @@
+*list movie
+https://api.themoviedb.org/3/movie/now_playing?api_key=<<api_key>>&language=en-US&page=1
+*list tv
+https://api.themoviedb.org/3/tv/airing_today?api_key=<<api_key>>&language=en-US&page=1
+*detail tv
+https://api.themoviedb.org/3/tv/{tv_id}?api_key=<<api_key>>&language=en-US
+*detail movie
+https://api.themoviedb.org/3/movie/{movie_id}?api_key=<<api_key>>&language=en-US
+*list cast
+http://api.themoviedb.org/3/movie/297762/casts?api_key=e9e9d8da18ae29fc430845952232787c

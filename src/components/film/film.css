@@ -1,0 +1,67 @@
+.slider-film{
+    height: 170px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+.slider-film img{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.slider-film:hover img{
+    opacity: 0.5;
+}
+.slider-film .span{
+    background-image: linear-gradient(to right, rgb(56, 17, 185) , rgb(226, 99, 205));
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    border-radius: 3px;
+}
+.slider-film .span p{
+    padding: 0;
+    margin: 0;
+    padding: 3px 15px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.slider-film .name-film{
+    background-color: #000000;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.7;
+    bottom: 0;
+}
+.slider-film .name-film p{
+    padding: 0;
+    margin: 0;
+    padding: 5px 10px;
+    color: #ffffff;
+    font-size: 15px;
+}
+.slider-film .icon-btn-play{
+    background-color:#0066FF ;
+    opacity: 0.7;
+    color: white;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 25%;
+    right: 35%;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    visibility: hidden;
+}
+.slider-film .icon-btn-play svg{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+.slider-film:hover .icon-btn-play{
+    visibility: unset;
+}

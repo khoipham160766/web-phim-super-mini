@@ -1,0 +1,287 @@
+.detail-film-cpn{
+    width: 100%;
+}
+.detail-film-cpn .header-detail-film {
+    width: 100%;
+    position: relative;
+}
+/* back ground film */
+.detail-film-cpn .header-detail-film .background-film{
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+}
+/* poster film */
+.detail-film-cpn .header-detail-film .poster-film{
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.detail-film-cpn .header-detail-film .poster-film img{
+    border: 1px solid #ffffff;
+    width: 100px;
+    height: 120px;
+    margin: 7px 15px;
+}
+/* action film */
+.detail-film-cpn .header-detail-film .action-film{
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.detail-film-cpn .header-detail-film .action-film h4{
+    color: #ffffff;
+    font-size: 19px;
+}
+/* action btn */
+.detail-film-cpn .header-detail-film .action-film svg{
+    margin-right: 8px;
+}
+.detail-film-cpn .header-detail-film .action-film button{
+    margin: 15px 10px 10px 0;
+    font-size: 15px;
+    padding: 7px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+.detail-film-cpn .header-detail-film .action-film .watching{
+    background-color: #EE0000;
+}
+.detail-film-cpn .header-detail-film .action-film .trailer{
+    background-color: #0066CC;
+}
+/* trailer */
+.detail-film-cpn .trailer-youtube{
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+.detail-film-cpn .trailer-youtube label{
+    color: #ff6600;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 25px;
+    border: 1px solid #ff6600;
+    padding: 5px 14px;
+    text-align: center;
+    border-radius: 7px;
+}
+/* information film */
+.detail-film-cpn .information-film{
+    width: 100%;
+    background-color: #222222;
+    margin-top: 15px;
+    float: left;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+}
+.detail-film-cpn .information-film .info .red{
+    color: #ff0000;
+}
+.detail-film-cpn .information-film .info ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding: 10px 12px 0 12px;
+    margin-bottom: 5px;
+}
+.detail-film-cpn .information-film .info ul li{
+    padding: 2px 0 ;
+}
+.detail-film-cpn .information-film .info ul li label{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.detail-film-cpn .information-film .info ul li span{
+    color: #777777;
+    font-size: 15px;
+}
+.detail-film-cpn .information-film .content-film{
+    border-top: 1px solid #555555;
+    padding: 10px 10px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 15px;
+    width: 100%;
+}
+.detail-film-cpn .information-film .content-film span{
+    color: #ff6600;
+    padding: 0;
+    margin: 10px 0 0 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.detail-film-cpn .information-film .content-film p{
+    color: #777777;
+    padding: 5px 10px 10px 0px;
+    text-align: justify;
+    font-size: 15px;
+}
+.detail-film-cpn .information-film .list-info::before{
+    content: ",";
+}
+.detail-film-cpn .information-film .list-info:first-child::before{
+    content: "";
+}
+/* sorry */
+.sorry{
+    background-color: black;
+    position: absolute;
+    border: 1px solid #333333;
+    color: white;
+    z-index: 1000;
+    top: 25%;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+}
+.sorry ~ * {
+    filter: grayscale(70%) blur(3px);
+}
+.sorry .sorry-exit {
+    position: relative;
+    height: 20px;
+}
+.sorry .sorry-exit svg {
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.sorry .sorry-exit svg:hover {
+    color: #ff6600;
+}
+.sorry .content-sorry{
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sorry .content-sorry span{
+    width: 100%;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+.sorry .content-sorry img{
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+    padding: 15px;
+}
+/* mobile */
+@media only screen and (max-width: 576px){
+    .detail-film-cpn .header-detail-film .action-film button{
+        margin: 15px 10px 10px 0;
+        font-size: 14px;
+        padding: 5px;
+        font-weight: bold;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    .sorry{
+        width: 300px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .detail-film-cpn .header-detail-film .background-film{
+        width: 100%;
+        background-color: black;
+        opacity: 0.4;
+        height: 250px;
+    } 
+    .sorry{
+        width: 400px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .detail-film-cpn .header-detail-film .background-film{
+        width: 100%;
+        background-color: black;
+        opacity: 0.4;
+        height: 300px;
+    } 
+    .detail-film-cpn .information-film .info ul li{
+        padding: 2px 0 ;
+        width: 50%;
+        display: inline-block;
+    }
+    .detail-film-cpn .information-film .content-film span{
+        font-size: 18px;
+    }
+    .sorry{
+        width: 430px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .detail-film-cpn{
+        width: 100%;
+    }
+    .detail-film-cpn .header-detail-film .background-film{
+        width: 100%;
+        background-color: black;
+        opacity: 0.4;
+        height: 350px;
+    } 
+    .detail-film-cpn .header-detail-film .poster-film img{
+        border: 1px solid #ffffff;
+        width: 130px;
+        height: 160px;
+        margin: 7px 15px;
+    }
+    .detail-film-cpn .header-detail-film .action-film h4{
+        color: #ffffff;
+        font-size: 24px;
+    }
+    .detail-film-cpn .information-film .info ul li{
+        padding: 2px 0 ;
+        width: 33.33%;
+        float: left;
+    }
+    .detail-film-cpn .information-film .content-film span{
+        font-size: 18px;
+    }
+    .sorry{
+        width: 480px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .detail-film-cpn{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .detail-film-cpn .header-detail-film .background-film{
+        width: 100%;
+        background-color: black;
+        opacity: 0.4;
+        height: 450px;
+    } 
+    .detail-film-cpn .header-detail-film .poster-film img{
+        border: 1px solid #ffffff;
+        width: 160px;
+        height: 200px;
+        margin: 7px 30px;
+    }
+    .detail-film-cpn .header-detail-film .action-film h4{
+        color: #ffffff;
+        font-size: 27px;
+    }
+    .detail-film-cpn .information-film .info ul li{
+        padding: 2px 0 ;
+        width: 33.33%;
+        float: left;
+    }
+    .detail-film-cpn .information-film .content-film span{
+        font-size: 18px;
+    }
+    .sorry{
+        background-color: black;
+        position: absolute;
+        border: 1px solid #333333;
+        color: white;
+        width: 500px;
+    }
+}
