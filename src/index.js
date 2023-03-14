@@ -14,10 +14,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {
     createBrowserRouter,
     RouterProvider,
-    HashRouter
+    createHashRouter
   } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
         path:"/",
         element: <App />,
@@ -65,9 +65,7 @@ const router = createBrowserRouter([
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <HashRouter>
         <RouterProvider router={router} />
-    </HashRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
