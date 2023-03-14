@@ -2,7 +2,7 @@
   "name": "web-phim",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://khoipham160766.github.io/web-phim-super-mini",
+  "homepage": "https://khoipham160766.github.io/web-phim-super-mini/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@fortawesome/free-brands-svg-icons": "^6.3.0",
