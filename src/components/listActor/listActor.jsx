@@ -35,7 +35,7 @@ const ListActor = ({id,type}) => {
 
     useEffect(()=>{
         const getListActor = async() =>{
-            const response = await axios.get(`http://api.themoviedb.org/3/${type}/${id}/credits?api_key=${key_api}`,{
+            const response = await axios.get(`https://api.themoviedb.org/3/${type}/${id}/credits?api_key=${key_api}`,{
                 param:{
                     _limit: 20
                 }
