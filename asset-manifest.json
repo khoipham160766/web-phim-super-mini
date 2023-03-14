@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/web-phim-super-mini/static/css/main.8fcb4698.css",
-    "main.js": "/web-phim-super-mini/static/js/main.fb8aa8cd.js",
+    "main.js": "/web-phim-super-mini/static/js/main.bbe8ff22.js",
     "index.html": "/web-phim-super-mini/index.html",
     "main.8fcb4698.css.map": "/web-phim-super-mini/static/css/main.8fcb4698.css.map",
-    "main.fb8aa8cd.js.map": "/web-phim-super-mini/static/js/main.fb8aa8cd.js.map"
+    "main.bbe8ff22.js.map": "/web-phim-super-mini/static/js/main.bbe8ff22.js.map"
   },
   "entrypoints": [
     "static/css/main.8fcb4698.css",
-    "static/js/main.fb8aa8cd.js"
+    "static/js/main.bbe8ff22.js"
   ]
 }
