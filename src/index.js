@@ -23,11 +23,11 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />,
         children: [
             {
-                path: "",
+                path: "/web-phim-super-mini",
                 element: <Home />
             },
             {
-                path: "home",
+                path: "/web-phim-super-mini/home",
                 element: <Home />
             },
             {
