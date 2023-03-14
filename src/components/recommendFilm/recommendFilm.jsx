@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCaretRight } from "@fortawesome/free-solid-svg-icons"
 import Film from "../film/Film"
 import "./recommendFilm.css"
+import { Link } from "react-router-dom"
 import axios from "axios"
 
 const RecommendFilm = ({title,type,film}) => {
@@ -10,6 +11,7 @@ const RecommendFilm = ({title,type,film}) => {
     const [listFilmOne, setListFilmOne] = useState([])
     const [listFilmTwo, setListFilmTwo] = useState([])
     const [listFilmFull, setListFilmFull] = useState([])
+    const link = `/${film}`
 
     useEffect(()=>{
         const getListFilmFull = async() => {
@@ -33,10 +35,12 @@ const RecommendFilm = ({title,type,film}) => {
                     </div>
                     <div className="col-xl-2">
                         <div className="more-film">
-                            <span>
-                                Xem Tất Cả
-                                <FontAwesomeIcon icon={faCaretRight}/>
-                            </span>
+                            <Link to={link}>
+                                <span>
+                                    Xem Tất Cả
+                                    <FontAwesomeIcon icon={faCaretRight}/>
+                                </span>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -16,7 +16,7 @@ const Film = ({mediaType,background,filmname,type,id}) => {
                     <div className="span">
                         <p>{(mediaType)?mediaType:""}</p>
                     </div>
-                    <img src={(background)?`${link_image}${background}`:"../images/film.png"} alt=""/>
+                    <img src={(background)?`${link_image}${background}`:"https://res.cloudinary.com/dsmxbt954/image/upload/v1678768727/logo-x-snail/no-image_ycoyag.png"} alt=""/>
                     <div className="name-film">
                         <p>{(filmname)?filmname:""}</p>
                     </div>
