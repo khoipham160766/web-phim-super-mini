@@ -23,15 +23,15 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />,
         children: [
             {
-                path: "",
+                path: "/web-phim-super-mini/",
                 element: <Home />
             },
             {
-                path: "home",
+                path: "/web-phim-super-mini/home",
                 element: <Home />
             },
             {
-                path: "/movie",
+                path: "/web-phim-super-mini/movie",
                 element: <MovieFilm itemsPerPage={12}/>
             },
             {
