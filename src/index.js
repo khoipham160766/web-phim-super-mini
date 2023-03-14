@@ -23,39 +23,39 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />,
         children: [
             {
-                path: "/web-phim-super-mini",
+                path: "/",
                 element: <Home />
             },
             {
-                path: "/web-phim-super-mini/home",
+                path: "/home",
                 element: <Home />
             },
             {
-                path: "movie",
+                path: "/movie",
                 element: <MovieFilm itemsPerPage={12}/>
             },
             {
-                path: "movie/:id",
+                path: "/movie/:id",
                 element: <GenreMovieFilm itemsPerPage={25}/>
             },
             {
-                path: "tv",
+                path: "/tv",
                 element: <TVFilm itemsPerPage={12}/>
             },
             {
-                path: "tv/:id",
+                path: "/tv/:id",
                 element: <GenreTvFilm itemsPerPage={25}/>
             },
             {
-                path: "search/:keyword",
+                path: "/search/:keyword",
                 element: <KeywordFilm itemsPerPage={12}/>
             },
             {
-                path: "tv/detail/:id",
+                path: "/tv/detail/:id",
                 element: <DetailFilm type="tv" />
             },
             {
-                path: "movie/detail/:id",
+                path: "/movie/detail/:id",
                 element: <DetailFilm type="movie" />
             },
         ]
